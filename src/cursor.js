@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
     cursorDot.style.left = `${posX}px`;
     cursorDot.style.top = `${posY}px`;
 
+    console.log(posX);
+
     // cursorOutline.style.left = `${posX}px`;
     // cursorOutline.style.top = `${posY}px`;
 
