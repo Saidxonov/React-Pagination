@@ -1,0 +1,75 @@
+.sides {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-side h1 {
+  color: #18004c;
+  font-size: 60px;
+  font-weight: 500;
+  width: 601px;
+  margin-bottom: 54px;
+}
+
+.font2 {
+  font-family: "Poppins";
+}
+
+.title {
+  font-family: "Amaranth";
+}
+
+.left-side h1 span {
+  color: #4f6aff;
+}
+
+.left-side p {
+  font-size: 16px;
+  letter-spacing: -0.15px;
+  margin-bottom: 40px;
+}
+
+.button1 {
+  padding: 12px 24px;
+  border-radius: 28px;
+  border: 2px solid #18004c;
+  background-color: #18004c;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.button1:hover {
+  color: #18004c;
+  background-color: inherit;
+  transition: 0.3s;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.button2 {
+  color: #18004c;
+  font-size: 16px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.home {
+  animation: from-bottom 1s ease-in-out 1s backwards;
+}
+
+@keyframes from-bottom {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

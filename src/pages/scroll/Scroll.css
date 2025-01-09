@@ -1,0 +1,10 @@
+.app h1 {
+  margin: 1rem 0;
+  font-size: 70px;
+  color: #000;
+  text-align: center;
+}
+
+.app {
+  cursor: none;
+}

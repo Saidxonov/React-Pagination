@@ -1,0 +1,55 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0px;
+  animation: slide 2s ease-out;
+}
+
+@keyframes slide {
+  from {
+    transform: translate(-100%);
+  }
+  to {
+    transform: translate(0%);
+  }
+}
+
+.menus ul {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  list-style-type: none;
+}
+
+.menus ul li a {
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.menus ul li a:hover {
+  border-bottom: 2px solid #000;
+}
+
+.menus ul button {
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 28px;
+  cursor: none;
+  border: 2px solid #000;
+  transition: 0.3s;
+}
+
+.menus ul button:hover {
+  background-color: inherit;
+  color: #000;
+  transition: 0.3s;
+}
+
+.logo img {
+  cursor: none;
+}

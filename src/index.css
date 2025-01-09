@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css2?family=Amaranth:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.font2 {
+    font-family: "Poppins";
+}
+
+.font1 {
+    font-family: "Amaranth";
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #edf5ff;
+    cursor: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cursor-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+}
+
+.cursor-outline {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+}
+
+.cursor-dot,
+.cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+a,
+button:hover {
+    cursor: none;
+}
