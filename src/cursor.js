@@ -1,5 +1,5 @@
-const cursorDot = document.querySelector("[data-cursor-dot]");
-const cursorOutline = document.querySelector("[data-cursor-outline]");
+const cursorDot = document.querySelector(".cursor-dot");
+const cursorOutline = document.querySelector(".cursor-outline");
 
 window.addEventListener("mousemove", function (e) {
   const posX = e.clientX;
