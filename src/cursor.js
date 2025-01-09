@@ -1,23 +1,15 @@
-const cursorDot = document.querySelector("[data-cursor-dot]");
-const cursorOutline = document.querySelector("[data-cursor-outline]");
+document.addEventListener("DOMContentLoaded", function () {
+  const cursorDot = document.querySelector("[data-cursor-dot]");
+  const cursorOutline = document.querySelector("[data-cursor-outline]");
 
-window.addEventListener("mousemove", function (e) {
-  const posX = e.clientX;
-  const posY = e.clientY;
+  window.addEventListener("mousemove", function (e) {
+    const posX = e.clientX;
+    const posY = e.clientY;
 
-  cursorDot.style.left = `${posX}px`;
-  cursorDot.style.top = `${posY}px`;
+    // cursorDot.style.left = `${posX}px`;
+    // cursorDot.style.top = `${posY}px`;
 
-  // cursorOutline.style.left = `${posX}px`;
-  // cursorOutline.style.top = `${posY}px`;
-
-  console.log(posX);
-
-  cursorOutline.animate(
-    {
-      left: `${posX}px`,
-      top: `${posY}px`,
-    },
-    { duration: 500, fill: "forwards" }
-  );
+    cursorOutline.style.left = `${posX}px`;
+    cursorOutline.style.top = `${posY}px`;
+  });
 });
